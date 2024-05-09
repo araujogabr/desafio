@@ -1,0 +1,14 @@
+.containerLogin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyLogin{
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}

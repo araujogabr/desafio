@@ -1,0 +1,48 @@
+.bg {
+    width: 100w;
+    height: 100vh;
+    background-image: url(../../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+
+@media screen and (max-width: 600px) {
+    .text h1{
+        font-size: 1.1rem;
+    }
+
+    .buttons{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

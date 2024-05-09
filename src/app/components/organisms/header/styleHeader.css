@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #0E1C50;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 60px;
+
+    img{
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header{
+        padding: 0 20px;
+        img{
+            height: 40%;
+        }
+
+    }
+}
+
